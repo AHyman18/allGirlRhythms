@@ -1,23 +1,25 @@
-//create a bst
+//Create a bst
 function BST(val) {
   this.val = val;
   this.left = null;
   this.right = null;
 }
 
-//search for the left most node
-//two pointers:
-//the "fast" pointer for bst.left.left
-//the "slow" pointer for bst
-//Logic: When the fast pointer has reached a place where its left ===null, the slow pointer should be pointing t0 the second smalledst node
+//Strategy: 
+//Recusrively search for the left most node
+//Initialize two pointers: a "fast" pointer for bst.left.left and a  "slow" pointer for the current iteration of the bst tree
+
+//Logic: 
+//When the fast pointer has reached a place where its left property === null, the slow pointer should be pointing to the second smallest node
+
 BST.prototype.secondMinNode = bst => {
   let fast = bst.left.left;
   let slow = bst;
-  //iterate until we've reached the left most node determined by the fast pointer
+  //Iterate until the left most node, determined by the fast pointer, is null
   while (fast !== null) {
-    //return the slow pointer's left val when the fast pointer has reached it's base case
+    //Return the slow pointer's left.val when the fast pointer has reached it's base case
     if (fast.left === null) return slow.left.val;
-    //while not equal to null incremeent the pointer by node
+    //While the fast pointer is not equal to null, incremeent each pointer by a single node to the left
     fast = fast.left;
     slow = slow.left;
   }
