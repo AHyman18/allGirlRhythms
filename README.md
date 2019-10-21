@@ -14,7 +14,8 @@ Why2: Because women lifting each other up is a powerful thing.
 How do I get started?
 
 - Fork this repo
-- Clone your fork
+- Clone your fork `git clone <url>`
+- Check out the 'challenges' branch `git checkout challenges`
 - Have fun, create cool algorithm solutions and complete as many challenges as you can.
 
 *Make sure you test your work*
@@ -26,9 +27,9 @@ What do I do when I'm done?
 If you would like to submit a solution:
 
 
-- When completed, commit and push your changes to your GitHub fork
+- When completed, commit and push your changes to your GitHub fork `git add <filename>` `git commit -m <commit message` `git push origin challenges`
 
-- Submit a pull request to the AHyman18 repo, to the branch name matching your GitHub handle
+- In Github, submit a pull request to the AHyman18 repo, to the branch name matching your GitHub handle 
 
 - Click the pull request icon the on the left side of the screen Alt text
 
