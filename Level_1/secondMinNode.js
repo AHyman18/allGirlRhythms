@@ -37,4 +37,4 @@ bst.left.right = new BST(4);
 bst.right = new BST(7);
 bst.right.right = new BST(9);
 
-console.log(bst.secondMinNode(bst));
+console.log(bst.secondMinNode(bst)); //3
