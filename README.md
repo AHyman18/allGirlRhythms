@@ -46,7 +46,7 @@
 - Add a title and comment to the pull request and then click the create pull request button 
 
 
-
+----
 ***This Repo is modeled after the Women Who Code Algorithms Repo: https://github.com/WomenWhoCodeNYC/Algorithms***
 
 
