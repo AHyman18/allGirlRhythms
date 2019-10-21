@@ -47,6 +47,6 @@
 
 
 
-*This Repo is modeled after the Women Who Code Algorithms Repo.
+***This Repo is modeled after the Women Who Code Algorithms Repo: https://github.com/WomenWhoCodeNYC/Algorithms***
 
 
