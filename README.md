@@ -27,7 +27,7 @@ What do I do when I'm done?
 If you would like to submit a solution:
 
 
-- When completed, commit and push your changes to your GitHub fork `git add <filename>` `git commit -m <commit message` `git push origin challenges`
+- When completed, commit and push your changes to your GitHub fork `git add <filename>` `git commit -m <commit message>` `git push origin challenges`
 
 - In Github, submit a pull request to the AHyman18 repo, to the branch name matching your GitHub handle 
 
