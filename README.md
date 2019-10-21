@@ -23,7 +23,7 @@
   
 - Have fun, create cool algorithm solutions and complete as many challenges as you can.
 
-*Make sure you test your work*
+***Make sure you test your work***
 
 ----
 
